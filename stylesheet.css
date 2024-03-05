@@ -11,6 +11,23 @@ body {
     padding: 20px;
 }
 
+.image-container {
+    position: relative;
+    max-width: 100%;
+}
+
+#text-overlay {
+    position: absolute;
+    top: 0; /* Position at the top of the container */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 10px; /* Add padding for better readability */
+}
+
 .welcome-text {
     text-align: center;
     color: #B35512;
