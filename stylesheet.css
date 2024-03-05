@@ -18,19 +18,31 @@ body {
 
 .content-wrapper {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
+.left-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right-content {
+    flex: 1;
+}
+
 .left-image {
-    max-width: 100%; /* Set the maximum width to 100% to make sure it's responsive */
-    width: 150px; /* Set the desired width of the image */
+    max-width: 100%;
+    width: 150px; 
     margin-right: 20px;
 }
 
 .hover-link {
-    color: #3055b3; /* Default link color */
+    color: #3055b3;
 }
 
 .hover-link:hover {
-    color: #b833ff; /* New color on hover */
+    color: #b833ff;
 }
