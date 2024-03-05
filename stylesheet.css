@@ -1,0 +1,15 @@
+/* Reset some default styles for better consistency */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styling to the link */
+.hover-link {
+    color: #3055b3; /* Default link color */
+}
+
+/* Change link color on hover */
+.hover-link:hover {
+    color: #b833ff; /* New color on hover */
+}
